@@ -1,0 +1,107 @@
+.object-holder
+{  
+  display:flex;
+  max-height: 122px;
+ margin: 1%;
+ background-color:white;
+ color:black;
+
+}
+.object-logo
+{
+  border: 1px black solid;
+}
+
+.object-info
+{
+  display: flex;
+  flex-grow: 1;
+  border-style: outset;
+  /* border-style: groove;
+  border-color: skyblue; */
+  padding-left:2%
+}
+
+.object-info-header > h4
+{
+ 
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.object-info-main
+{
+  
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-grow:1;
+  min-width:230px;
+  max-width:230px;
+  max-height: 80%;
+}
+.object-info-main a{
+
+      color:#007bff;
+}
+.object-info-main a:hover{
+  color: #02409e;
+    
+   
+}
+.object-info-desc
+{
+  display: flex;
+  text-align: left;
+  border-left: 3px #cce0ff solid;
+  flex-grow: 1;
+  padding-top: 3%;
+  max-height: 110px;
+  min-width: 215px;
+  overflow: auto;
+padding-left: 2%;
+  
+}
+.object-info-body
+{
+ 
+  display: flex;
+  flex-direction: column;
+  min-height: 50%;
+  max-height:60px;
+}
+.object-info-footer
+{
+
+  display: flex;
+}
+
+label{
+  margin: 0;
+}
+.rating{
+  border-bottom: 2px;
+}
+.solo-object
+{
+  display: flex;
+  flex-grow:1;
+  background-color: white;
+  flex-direction: column;
+}
+.proba
+{
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 500px) {
+  .object-holder
+  {
+    flex-direction: column;
+  }
+}
+.glavni{
+  
+}

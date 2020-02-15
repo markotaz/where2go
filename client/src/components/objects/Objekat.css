@@ -1,0 +1,14 @@
+.col-sm-8
+{
+    text-align: left;
+}
+
+Nav > a:active{
+    background-color: #007bff;
+}
+.mapa{
+    width:"1200";
+    height:"900";
+    frameborder:"0";
+    style:"border:0";
+}

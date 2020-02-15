@@ -1,0 +1,20 @@
+
+  .footer {
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color:   #007bff;
+    text-align: center;
+  }
+
+  .footer a {
+    font-style: italic;
+    color: white;
+  }
+ /* .footer a:hover {
+    
+  color: #0246ab;
+
+ }  */

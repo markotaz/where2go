@@ -1,0 +1,49 @@
+import  React from 'react';
+import {Component} from 'react';
+import './object.css';
+class Object extends Component{
+
+  componentDidMount()
+  {
+
+
+
+  }
+
+render()
+{
+
+return(
+<div className="object-holder">
+  <div className="object-logo">
+    <img src="https://www.donesi.com/images/seller/906.jpg"/>
+  </div>
+  <div className="object-info">
+    <div className="object-info-main">
+    <div className="object-info-header"> <h3>Night and Day</h3></div>
+    <div className="object-info-body"> 
+      
+      </div>
+    <div className="object-info-footer">
+       <div id="stars-existing" className="starrr" data-rating='4'></div>
+      <div><span id="count-existing">4</span><span>/5</span></div>
+    </div>
+    </div>
+    <div className="object-info-desc"> 
+      Роштиљ, Пилетина, Посластице, Бургери, Америчка храна
+Један од највећих светских брендова. Синоним за брзу и добру услугу, високе стандарде и најквалитетније производе.
+ Наручите онлајн и на вашу адресу стиже достава из "Мека"!
+
+    
+    </div>
+</div>
+</div>
+
+
+)}
+
+}        
+
+
+
+export default Object;
